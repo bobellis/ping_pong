@@ -1,0 +1,9 @@
+The Ping-Pong method counts from 1 to a given number.
+For example, we expect an input of 2 to return the array [1, 2].
+
+The Ping-Pong method will replace multiples of 3 with the string "ping", multiples
+of 5 with the string "pong", and multiples of both 3 and 5 with the string 'ping-pong'
+
+To determine which numbers are multiples of 3 and 5 we will use modulo method. For example
+if <number>.%(3)=0 it should return "ping", if <number>.%(5)=0 it should return
+with "pong" and if <number>.%(3)=0 AND <number>.%(5)=0 it should return "ping-pong"
